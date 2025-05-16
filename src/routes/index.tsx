@@ -27,9 +27,9 @@ export default function Router({}: Props) {
       <main className="p-6">
         <Routes>
           <Route path="/" element={<HomeScreen />} />
-          <Route path="/receitas/:courseId" element={<CoursePage />} />
+          <Route path="/cursos/:courseId" element={<CoursePage />} />
           <Route path="/configuracoes" element={<SettingsPage />} />
-          <Route path="/receitas" element={<CoursesPage />} />
+          <Route path="/cursos" element={<CoursesPage />} />
         </Routes>
       </main>
       <Footer />

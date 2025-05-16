@@ -22,7 +22,7 @@ export default function CoursesList({
   const { apiUrl } = useApiUrl();
 
   function handlePlayButtonClick(courseId: number) {
-    navigate(`/receitas/${courseId}`);
+    navigate(`/cursos/${courseId}`);
   }
 
   const loadCourses = async () => {

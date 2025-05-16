@@ -22,7 +22,7 @@ function Header() {
         </div>
         <div className="flex flex-wrap gap-4 items-center">
           <APIUrl />
-          <Button onClick={() => handleNavigate("/receitas")} variant="link">
+          <Button onClick={() => handleNavigate("/cursos")} variant="link">
             Gestão de Cursos
           </Button>
 
