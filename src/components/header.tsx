@@ -25,7 +25,9 @@ function Header() {
           <Button onClick={() => handleNavigate("/cursos")} variant="link">
             Gestão de Cursos
           </Button>
-
+          <Button onClick={() => handleNavigate("/pos-edital")} variant="link">
+            Pós-edital
+          </Button>
           <Button
             onClick={() => handleNavigate("/configuracoes")}
             variant="link"

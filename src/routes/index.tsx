@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Toaster } from "sonner";
 import CoursesPage from "@/pages/courses";
 import Footer from "@/components/footer";
+import PosEditalPage from "@/pages/pos-edital";
 
 type Props = {};
 
@@ -30,6 +31,7 @@ export default function Router({}: Props) {
           <Route path="/cursos/:courseId" element={<CoursePage />} />
           <Route path="/configuracoes" element={<SettingsPage />} />
           <Route path="/cursos" element={<CoursesPage />} />
+          <Route path="/pos-edital" element={<PosEditalPage />} />
         </Routes>
       </main>
       <Footer />
