@@ -19,7 +19,8 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "types": ["vite/client"]
   },
   "include": ["src/**/*", "types/**/*"],
   "references": [{ "path": "tsconfig.node.json" }]
