@@ -31,7 +31,7 @@ export default function CoursesPage() {
       <div className="w-full mb-4 space-y-8">
         <div className="space-y-6">
           <div className="flex justify-between">
-            <h1>Receitas cadastradas {/*({courses.length})*/}</h1>
+            <h1>Cursos cadastrados {/*({courses.length})*/}</h1>
             <AddCourse onCreate={() => fetchCourses()} />
           </div>
           <section className="mt-10 flex  flex-wrap gap-4 w-full justify-center ">
