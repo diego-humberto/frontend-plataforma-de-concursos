@@ -18,12 +18,12 @@ function Header() {
           onClick={() => handleNavigate("/")}
           className="inline-flex flex-wrap gap-3 cursor-pointer font-medium text-xl"
         >
-          <Cookie className="w-8 h-8" /> Receitas
+          <Cookie className="w-8 h-8" /> Cursos
         </div>
         <div className="flex flex-wrap gap-4 items-center">
           <APIUrl />
           <Button onClick={() => handleNavigate("/receitas")} variant="link">
-            Gestão de Receitas
+            Gestão de Cursos
           </Button>
 
           <Button
